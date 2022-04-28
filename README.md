@@ -39,10 +39,14 @@ FROM
 Employee_detail
 select*from Employee_Detail
 where datepart(yyyy,Joining_Date)='2013';
+
+
 select*from  Employee_Detail
 where datepart(mm,Joining_Date)='1';
+
 select*from Employee_Detail
 where Joining_Date between '2014-01-09'and '2015-03-05';
+
 select First_Name case 
 when
 gender='male'then 'm'
